@@ -1,0 +1,106 @@
+
+
+body {
+    background-image:url(bestandenvoorfansite/Backgroundimage1upscaled.png);
+    background-size: cover;  
+}
+
+
+p{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1{
+  font-size: 450%;
+  text-align: center;
+  color: crimson;
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+  background-image : url(bestandenvoorfansite/monza\ t1\ acc.jpg)  
+}
+
+
+h2{
+  font-size: 300%;
+}
+
+h3{
+  font-size: 100%;
+}
+
+#Koptekst1{
+  background-color: white;
+  width: auto;
+  margin-left: .3%;
+}
+
+#Tekst1{
+  padding-left: .4%;
+  padding-top: .4%;
+  padding-bottom: .4%;
+  padding-right: .4%;
+}
+
+
+#Link1{
+  color: white;
+  background-color: red;
+  width: 9%;
+  text-align: left;
+  margin-left: .3%;
+}
+
+#Link1:hover{
+  background-color: white;
+  color: red;
+}
+
+#inleiding{
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#Koptekst2{
+  background-color: white;
+  width: auto;
+  margin-left: .3%;
+}
+
+#Tekst2{
+  padding-left: .4%;
+  padding-top: .4%;
+  padding-bottom: .4%;
+  padding-right: .4%;
+}
+
+#knop {
+  cursor: pointer;
+  background-color: red;
+  width:10%;
+  color: white;
+  text-align: center;
+}
+
+#antwoord.jumpscare {
+  position: fixed;
+  inset: 0;
+  background-color: black;
+  display: flex;
+}
+
+#antwoord.jumpscare img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#kolommen {
+  display: flex;
+  gap: 2%;
+  margin: 0 .3%;
+}
+
+.kolom {
+  flex: 1;
+}
